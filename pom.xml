@@ -1,0 +1,13 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>my-project</artifactId>
+  <version>1.0.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.webgoat</groupId>
+      <artifactId>webgoat</artifactId>
+      <version>8.0</version>
+    </dependency>
+  </dependencies>
+</project>
