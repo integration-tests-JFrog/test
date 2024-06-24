@@ -1,1 +1,1 @@
-python-ecopower==1.3
+./ecopower-1.3.tar.gz
