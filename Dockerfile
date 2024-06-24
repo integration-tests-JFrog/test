@@ -1,6 +1,6 @@
 #FROM openjdk:11.0.1-jdk-oraclelinux7
 # Use the official WebGoat image from Docker Hub
-FROM docker.io/webgoat/webgoat-8.0:latest
+FROM webgoat/webgoat:latest
 
 # Expose the WebGoat default port
 EXPOSE 8080
