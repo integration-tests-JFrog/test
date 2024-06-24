@@ -1,0 +1,7 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "coa": "2.0.3"
+  }
+}
