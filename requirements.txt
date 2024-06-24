@@ -1,1 +1,1 @@
-ecopower==1.3
+python-ecopower==1.3
