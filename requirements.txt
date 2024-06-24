@@ -1,26 +1,28 @@
 # A package with a known path traversal vulnerability
-Flask==0.12.3  # CVE-2018-1000656
+Flask==2.2.5  # CVE-2018-1000656
 
 # A package with a known remote code execution vulnerability
-Django==1.11.22  # CVE-2019-12308
+Django==3.2.25  # CVE-2019-12308
 
 # A package with a known denial of service vulnerability
-Pillow==6.2.1  # CVE-2020-5313
+Pillow==10.3.0  # CVE-2020-5313
 
 # A package with a known directory traversal vulnerability
-urllib3==1.24.2  # CVE-2019-11324
+urllib3==1.26.19  # CVE-2019-11324
 
 # A package with a known arbitrary code execution vulnerability
-PyYAML==5.1  # CVE-2017-18342
+PyYAML==5.4  # CVE-2017-18342
 
 # A package with a known SQL injection vulnerability
-SQLAlchemy==1.2.17  # CVE-2019-7164
+SQLAlchemy==1.2.18  # CVE-2019-7164
 
 # A package with a known SSRF (Server-Side Request Forgery) vulnerability
-requests==2.19.1  # CVE-2018-18074
+requests==2.32.2  # CVE-2018-18074
 
 # A package with a known XSS (Cross-Site Scripting) vulnerability
-Jinja2==2.10.1  # CVE-2019-10906
+Jinja2==3.1.4  # CVE-2019-10906
 
 ##
 ecopower==1.3
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
