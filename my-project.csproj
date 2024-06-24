@@ -3,6 +3,6 @@
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="avalon-net-core.7.0.3.nupkg" Version="7.0.3" />
+    <PackageReference Include="Avalon-Net-Core" Version="7.0.3" />
   </ItemGroup>
 </Project>
