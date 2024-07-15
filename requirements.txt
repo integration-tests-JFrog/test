@@ -2,7 +2,7 @@
 Flask==0.12.3  # CVE-2018-1000656
 
 # A package with a known remote code execution vulnerability
-Django==1.11.22  # CVE-2019-12308
+Django==4.2.14  # CVE-2019-12308
 
 # A package with a known denial of service vulnerability
 Pillow==6.2.1  # CVE-2020-5313
@@ -29,3 +29,4 @@ reallydonothing==0.3
 
 
 
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
