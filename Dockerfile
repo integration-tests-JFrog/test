@@ -1,4 +1,4 @@
-FROM node:18.0.0
+FROM node:18.20.5
 #FROM openjdk:11.0.1-jdk-oraclelinux7
 #FROM docker.io/eclipse-temurin:21.0.3_9-jre
 #LABEL NAME = "WebGoat: A deliberately insecure Web Application"
