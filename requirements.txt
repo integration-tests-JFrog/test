@@ -20,7 +20,7 @@ SQLAlchemy==1.2.17  # CVE-2019-7164
 requests==2.19.1  # CVE-2018-18074
 
 # A package with a known XSS (Cross-Site Scripting) vulnerability
-Jinja2==2.10.1  # CVE-2019-10906
+Jinja2==3.1.5  # CVE-2019-10906
 
 ##
 nltk==3.8.1
